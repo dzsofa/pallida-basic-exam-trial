@@ -13,12 +13,11 @@
 
 
 # Tasks
-## 1-4. Complete the following tasks: (~180 mins)
+## 1-3. Complete the following tasks: (~90 mins)
 
 - [Odd filter](oddfilter/OddFilter.java)
 - [Name from email](namefromemail/NameFromEmail.java)
-- [Pirates](pirates/Pirates.java)
-- [Box](box/Box.java)
+- [Dictionary](dictionary/Dictionary.java)
 
 ### Acceptance criteria
 The application is accepted if:
@@ -29,8 +28,8 @@ The application is accepted if:
 - The code is clean, without unnecessary repetition, and with descriptive names [1p each]
 - You commit frequently with descriptive commit messages [1p]
 
-## 5. Question time! (~15 mins) [2p]
+## 4. Question time! (~15 mins) [2p]
 
-### How can you generate a random number? [2p]
+###  What is the difference between id and class in CSS? [2p]
 #### Your answer: 
 [add your answer here]

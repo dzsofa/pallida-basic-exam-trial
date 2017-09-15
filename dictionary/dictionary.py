@@ -12,9 +12,9 @@ def add_word(hun_word, eng_word):
 
 # Implement these methods. They should return the translation of the given
 # word form the list 'dictionary'
-def translate_hun(eng_word):
+def translate_to_hun(eng_word):
     pass
 
 
-def translate_eng(hun_word):
+def translate_to_eng(hun_word):
     pass

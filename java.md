@@ -16,7 +16,7 @@
 ## 1-4. Complete the following tasks: (~180 mins)
 
 - [Odd filter](oddfilter/OddFilter.java)
-- [Count A-s](countas/CountAs.java)
+- [Name from email](namefromemail/NameFromEmail.java)
 - [Pirates](pirates/Pirates.java)
 - [Box](box/Box.java)
 

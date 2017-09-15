@@ -16,7 +16,7 @@
 ## 1-4. Complete the following tasks: (~180 mins)
 
 - [Odd filter](oddfilter/odd_filter.py)
-- [Count A-s](countas/count-as.py)
+- [Name from email](namefromemail/name_from_email.py)
 - [Pirates](pirates/pirates.py)
 - [Box](box/box.py)
 

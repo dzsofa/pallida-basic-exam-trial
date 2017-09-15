@@ -15,7 +15,7 @@
 # Tasks
 ## 1-4. Complete the following tasks: (~180 mins)
 
-- [Seconds](seconds/Seconds.java)
+- [Odd filter](oddfilter/OddFilter.java)
 - [Count A-s](countas/CountAs.java)
 - [Pirates](pirates/Pirates.java)
 - [Box](box/Box.java)

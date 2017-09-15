@@ -15,7 +15,7 @@
 # Tasks
 ## 1-4. Complete the following tasks: (~180 mins)
 
-- [Seconds](seconds/seconds.py)
+- [Odd filter](oddfilter/odd_filter.py)
 - [Count A-s](countas/count-as.py)
 - [Pirates](pirates/pirates.py)
 - [Box](box/box.py)

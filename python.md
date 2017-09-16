@@ -13,11 +13,12 @@
 
 
 # Tasks
-## 1-3. Complete the following tasks: (~90 mins)
+## 1-4. Complete the following tasks: (~120 mins)
 
 - [Odd filter](oddfilter/odd_filter.py)
 - [Name from email](namefromemail/name_from_email.py)
 - [Dictionary](dictionary/dictionary.py)
+- [Urls from GitHub handles](urlsfromhandles/urls_from_handles.py)
 
 ### Acceptance criteria
 The application is accepted if:
@@ -28,8 +29,8 @@ The application is accepted if:
 - The code is clean, without unnecessary repetition, and with descriptive names [1p each]
 - You commit frequently with descriptive commit messages [1p]
 
-## 4. Question time! (~15 mins) [2p]
+## 5. Question time! (~15 mins) [2p]
 
-### What is the difference between id and class in CSS? [2p]
+###  What is the difference between id and class in CSS? [2p]
 #### Your answer:
- [add your answer here]
+[add your answer here]

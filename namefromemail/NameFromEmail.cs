@@ -8,6 +8,7 @@ namespace NameFromEmail
             //and returns a string that represents the user name in the following format: lastName firstName
             //example: "elek.viz@exam.com" for this input the output should be: "Viz Elek"
             //accents does not matter 
+            Console.WriteLine(NameFromEmail("elek.viz@exam.com"));
         }
     }
 }

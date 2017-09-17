@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class UrlFromHandles{
 	
@@ -8,5 +9,6 @@ public class UrlFromHandles{
 			// example:
 			// input: ["ghhandle1", "ghhandle2"]
 			// output: ["https://github.com/greenfox-academy/ghhandle1", "https://github.com/greenfox-academy/ghhandle2"]
+			System.out.println(urlsFromHandles(Arrays.asList("ghhandle1", "ghhandle2")));
         }
 }

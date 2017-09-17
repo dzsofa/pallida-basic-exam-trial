@@ -11,6 +11,7 @@ namespace NameFromEmail
             //example: "elek.viz@exam.com" for this input the output should be: "Viz Elek"
             //accents does not matter 
             Console.WriteLine(NameFromEmail("elek.viz@exam.com"));
+            Console.ReadLine();
         }
     }
 }

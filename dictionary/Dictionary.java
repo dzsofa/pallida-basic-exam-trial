@@ -12,10 +12,10 @@ public class Dictionary{
 
 	// Implement these methods. They should return the translation of the given word from the list 'dictionary'
 	public static String translateToHun(String engWord) {
-	
+		return null;
 	}
 
   	public static String translateToEng(String hunWord) {
-	
+		return null;
   	}
 }

@@ -13,7 +13,7 @@ namespace UrlsFromHandles
             // example:
             // input: ["ghhandle1", "ghhandle2"]
             // output: ["https://github.com/greenfox-academy/ghhandle1", "https://github.com/greenfox-academy/ghhandle2"]
-            Console.WriteLine(UrlsFromHandles(new List<string> {"ghhandle1", "ghhandle2"}));
+            List<string> gitHubUrls = UrlsFromHandles(new List<string> {"ghhandle1", "ghhandle2"});
         }
     }
 }

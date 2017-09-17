@@ -19,7 +19,6 @@ namespace Dictionary
 
         }
 
-
         // Implement this method. It should add the given key-value pair to the the dictionary
         public static void AddWord(string hungarianWord, string englishWord)
         {
@@ -32,15 +31,15 @@ namespace Dictionary
 
         }
 
-        //implement a method which works as a traslator from hungarian to english
-        //example: you give it a parameter "alma" and it's output is "tree"
+        // Implement a method which works as a translator from Hungarian to English
+        // Example: you give it a parameter "alma" and it's output is "tree"
         public static string TranslateToEnglish(string hungarian)
         {
 
         }
 
-        //implement a method which works as a translator from english to hungarian
-        //example: you give it a parameter "apple" and it's output is "alma"
+        // Implement a method which works as a translator from English to Hungarian
+        // Example: you give it a parameter "apple" and it's output is "alma"
         public static string TranslateToHungarian(string english)
         {
 

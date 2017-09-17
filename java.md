@@ -13,7 +13,7 @@
 
 
 # Tasks
-## 1-4. Complete the following tasks: (~120 mins)
+## 1-4. Complete the following tasks: (~240 mins)
 
 - [Odd filter](oddfilter/OddFilter.java)
 - [Name from email](namefromemail/NameFromEmail.java)

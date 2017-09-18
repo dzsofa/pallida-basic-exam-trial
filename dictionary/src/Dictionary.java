@@ -13,6 +13,8 @@ public class Dictionary {
 
         //adding new key-value pair to hashmap
         addWord("kenyer", "bread");
+        addWord("kutya", "dog");
+        addWord("otthon", "home");
         System.out.println(Arrays.asList(map));
         System.out.println();
 
@@ -26,7 +28,7 @@ public class Dictionary {
         System.out.println();
 
         //translate from Hungarian to English
-        System.out.println(translateToEng("alma"));
+        System.out.println(translateToEng("kutya"));
         System.out.println();
     }
 
@@ -53,7 +55,10 @@ public class Dictionary {
 
     public static String translateToEng(String hunWord) {
         String key = "";
-        key = map.get(hunWord);
-        return key;
+        for (int i = 0; i < map.size(); i++) {
+            key = map.get(hunWord);
+            return key;
+        }
+        return null;
     }
 }

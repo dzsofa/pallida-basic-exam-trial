@@ -18,7 +18,3 @@ public class NameFromEmail {
         return lastName.substring(0, 1).toUpperCase() + lastName.substring(1) + " " + firstName.substring(0, 1).toUpperCase() + firstName.substring(1);
     }
 }
-
-//    int iend = filename.indexOf(".");
-//if (iend != -1)
-//        String subString= filename.substring(0 , iend); //this will give abc

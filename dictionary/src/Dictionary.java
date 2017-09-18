@@ -11,6 +11,8 @@ public class Dictionary {
         map.put("fa", "tree");
         addWord("kenyer", "bread");
         System.out.println(Arrays.asList(map));
+        removeWord("fa");
+        System.out.println(Arrays.asList(map));
     }
 
     // Implement this method. It should add the given key-value pair to the the map
@@ -20,6 +22,7 @@ public class Dictionary {
 
     // Implement this method. It should remove the key-value pair by the given key from the map
     public static void removeWord(String hunWord) {
+        map.remove(hunWord);
 
     }
 

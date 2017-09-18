@@ -31,8 +31,6 @@ public class Dictionary {
     // Implement these methods. They should return the translation of the given word from the map
     public static String translateToHun(String engWord) {
         for (Map.Entry<String, String> e : map.entrySet()) {
-            if (map.get(engWord).equals(map.get(e))) {
-                return map.get(e);
             }
         }
         return null;
@@ -42,3 +40,4 @@ public class Dictionary {
         return null;
     }
 }
+

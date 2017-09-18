@@ -8,10 +8,17 @@ public class NameFromEmail {
     }
 
     public static String nameFromEmail(String emailAddress) {
-        String  username = "";
-        for (int i = 0; i <= emailAddress.length(); i ++) {
-            username = emailAddress.substring(emailAddress.indexOf("."), emailAddress.indexOf("@")) + emailAddress.substring(emailAddress.charAt(0) + emailAddress.indexOf("@"));
+        String lastName = "";
+        String firstName = "";
+        int fullStopPlace = emailAddress.indexOf(".");
+        if (fullStopPlace != -1) {
+            firstName = emailAddress.substring(0, fullStopPlace);
+            lastName = emailAddress.substring(fullStopPlace + 1, emailAddress.indexOf("@"));
         }
-        return username;
+        return lastName.substring(0, 1).toUpperCase() + lastName.substring(1) + " " + firstName.substring(0, 1).toUpperCase() + firstName.substring(1);
     }
 }
+
+//    int iend = filename.indexOf(".");
+//if (iend != -1)
+//        String subString= filename.substring(0 , iend); //this will give abc

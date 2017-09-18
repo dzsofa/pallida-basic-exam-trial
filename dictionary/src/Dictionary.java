@@ -40,7 +40,6 @@ public class Dictionary {
     // Implement this method. It should remove the key-value pair by the given key from the map
     public static void removeWord(String hunWord) {
         map.remove(hunWord);
-
     }
 
     // Implement these methods. They should return the translation of the given word from the map

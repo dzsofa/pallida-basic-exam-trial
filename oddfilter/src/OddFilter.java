@@ -13,11 +13,12 @@ public class OddFilter {
     }
 
     public static ArrayList<Integer> oddFilter(ArrayList<Integer> sortable) {
+        ArrayList<Integer> oddNumbers = new ArrayList<>();
         for (int i = 0; i < sortable.size(); i++) {
-            if (sortable.get(i) % 2 == 0) {
-                sortable.remove(i);
+            if (sortable.get(i) % 2 == 1) {
+                oddNumbers.add(sortable.get(i));
             }
         }
-        return sortable;
+        return oddNumbers;
     }
 }

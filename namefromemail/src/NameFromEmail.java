@@ -5,6 +5,7 @@ public class NameFromEmail {
         //example: "elek.viz@exam.com" for this input the output should be: "Viz Elek"
         //accents does not matter
         System.out.println(nameFromEmail("elek.viz@exam.com"));
+        System.out.println(nameFromEmail("tibor.teszt@exam.com"));
     }
 
     public static String nameFromEmail(String emailAddress) {

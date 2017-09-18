@@ -14,7 +14,8 @@ public class Dictionary {
         removeWord("fa");
         System.out.println(Arrays.asList(map));
         translateToHun("bread");
-        System.out.println(Arrays.asList(map));
+        System.out.println(translateToHun("apple"));
+        System.out.println(translateToEng("alma"));
     }
 
     // Implement this method. It should add the given key-value pair to the the map
@@ -30,14 +31,14 @@ public class Dictionary {
 
     // Implement these methods. They should return the translation of the given word from the map
     public static String translateToHun(String engWord) {
-        for (Map.Entry<String, String> e : map.entrySet()) {
-            }
-        }
-        return null;
+        String key = "";
+        key = map.get(engWord);
+        return key;
     }
 
     public static String translateToEng(String hunWord) {
-        return null;
+        String key = "";
+        key = map.get(hunWord);
+        return key;
     }
 }
-
